@@ -1,0 +1,25 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon --watch  server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "devDependencies": {
+    "express": "^5.1.0",
+    "mongodb": "^6.18.0",
+    "mongoose": "^8.17.2",
+    "nodemon": "^3.1.10"
+  },
+  "dependencies": {
+    "cookieparser": "^0.1.0",
+    "dotenv": "^17.2.1",
+    "nodemailer": "^7.0.5"
+  }
+}
