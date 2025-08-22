@@ -74,29 +74,4 @@ User → React Frontend → Express Backend → OpenAI API
 ├── Google Places API
 └── Vector DB (FAISS/Pinecone)
 
-yaml
-Copy
-Edit
 
----
-
-##  Project Structure  
-WAYFINER/
-│
-├── backend/
-│ ├── routes/
-│ │ ├── itinerary.js # AI prompt handling
-│ │ ├── embeddings.js # Vector DB integration
-│ ├── utils/
-│ │ ├── openaiClient.js # LLM configuration
-│ │ ├── tokenLogger.js # Token usage logging
-│ ├── app.js # Express server
-│
-├── frontend/
-│ ├── src/
-│ │ ├── components/ # React UI components
-│ │ ├── pages/ # Main pages (Home, Results)
-│ │ ├── App.js
-│
-├── README.md
-└── package.json
